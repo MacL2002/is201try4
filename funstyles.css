@@ -1,0 +1,35 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    background: #f0f8ff;
+    padding: 2rem;
+    color: #333;
+  }
+  h1, h2, h3 {
+    font-family: 'Pacifico', cursive;
+    color: #555;
+  }
+  .cloud-box {
+    border-radius: 50px;
+    padding: 2rem;
+    background: white;
+    box-shadow:
+      10px 10px 0 #cce7ff,
+      -10px -10px 0 #cce7ff,
+      15px -10px 0 #cce7ff,
+      -15px 10px 0 #cce7ff;
+    transition: color 0.3s ease;
+    
+  }
+
+  .cloud-box:hover {
+    color: red;
+  }
+
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+
+  a:hover {
+    color: red;
+  }

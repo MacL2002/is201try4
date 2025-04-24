@@ -1,0 +1,28 @@
+p{
+    font-weight:bold;
+    font-size: 20px;
+}
+#top{
+    text-decoration: underline;
+}
+
+.emphasizedText{
+    font-style: italic;
+    color: grey;
+}
+body{
+    background-color: honeydew;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    border: 5px solid black;
+    margin: 25px;
+    padding: 10px;
+}
+
+.centerlist{
+    padding-left:0;
+    list-style-position: outside;
+    margin: 0 auto;
+    display: table;
+    text-align: left;
+}
